@@ -13,8 +13,20 @@ body {
     src: url(Fonts/Figtree/static/Figtree-ExtraBold.ttf);
 }
 
+@media (min-width: 480px) {
+    .carta {
+        border: 1px solid #111111;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 8px 8px #000000;
+    }
 
-@media (min-width: 767px) {}
+}
 
 @media (max-width: 768px) {}
 
