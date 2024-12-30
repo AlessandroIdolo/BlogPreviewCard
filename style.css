@@ -27,7 +27,7 @@ body {
     box-shadow: 8px 8px #000000;
 }
 
-@media (min-width:320px) {
+@media (min-width:410px) {
     .carta {
         border: 1px solid #111111;
         position: absolute;
