@@ -1,0 +1,113 @@
+body {
+    background-color: #f4d04e;
+}
+
+
+@font-face {
+    font-family: Figtree-Medium;
+    src: url(Fonts/Figtree/static/Figtree-Medium.ttf);
+}
+
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url(Fonts/Figtree/static/Figtree-ExtraBold.ttf);
+}
+
+
+@media (min-width: 767px) {}
+
+@media (max-width: 768px) {}
+
+
+.carta {
+    border: 1px solid #111111;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 26rem;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 8px 8px #000000;
+}
+
+.carta card-body card-title :hover {
+    color: #f4d04e !important;
+    cursor: pointer !important;
+
+}
+
+.carta img {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.btn {
+    background-color: #f4d04e;
+    color: #111111;
+    font-family: Figtree-ExtraBold;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+.card-title {
+    color: #111111;
+    font-family: Figtree-ExtraBold;
+    font-size: 24px;
+}
+
+.card-upper-text {
+    color: #111111;
+    font-family: Figtree-Medium;
+    font-size: 14px;
+}
+
+.card-text {
+    color: #6b6b6b;
+    font-family: Figtree-Medium;
+    font-size: 16px;
+
+}
+
+.card-img-bottom {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.author {
+    color: #111111;
+    font-family: Figtree-ExtraBold;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.author p {
+    margin-bottom: 0px;
+}
+
+
+.btn:hover {
+    background-color: black;
+    color: #f4d04e;
+
+}
+
+.card-title:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
